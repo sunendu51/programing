@@ -5,7 +5,7 @@ int main(){
     scanf("%d",&num);
     if (num <= 1){
         printf("enter imput. enter a number greater than 1.\n");
-        return;
+        return 0;
 
     }
     for(i=2;i<= num/2;i++){
